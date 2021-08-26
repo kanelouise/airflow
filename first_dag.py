@@ -4,7 +4,7 @@ from airflow.models import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.bash_operator import BashOperator
 
-args = {'owner': 'Anna', 'start_date': days_ago(2)}
+args = {'owner': 'kane', 'start_date': '2021-08-26'}
 
 
 def say_hi():
